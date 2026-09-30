@@ -1,0 +1,10 @@
+[project]
+name = "pythonseleniumpytest"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pytest>=9.1.1",
+    "pytest-html>=4.2.0",
+    "selenium>=4.49.0",
+]
