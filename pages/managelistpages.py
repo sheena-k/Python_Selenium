@@ -45,3 +45,4 @@ class ManagePage:
         self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         update_details=self.driver.find_element(*self.update_cashew_details)
         self.driver.execute_script("arguments[0].scrollIntoView();", update_details)
+        return self
